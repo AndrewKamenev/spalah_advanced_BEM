@@ -1,0 +1,70 @@
+/*layout*/
+.container {
+	width: 1150px;
+	margin: 0 auto;
+}
+.section {
+	width: 100%;
+	padding: 120px 0;
+}
+.section--start {
+	background-color: #89898b;
+	height: 100%;
+}
+.section--gray {
+	background-color: #424245;
+}
+.section--quote {
+	background-color: yellow;
+}
+.header {
+	border-bottom: 2px solid yellow;
+	padding: 40px 0;
+}
+.logo {
+	width: 190px;
+	height: 50px;
+	background: url('../images/logo.png') no-repeat;
+}
+.menu ul {
+	list-style: none;
+	margin: 0;
+}
+.menu li {
+	float: left;
+	display: inline-block;
+	padding: 13px 20px;
+	color: #8e8e8e;
+	text-transform: uppercase;
+}
+.menu li:hover {
+	border: 1px solid yellow;
+	color: black;
+}
+.footer {
+	width: 100%;
+	padding: 40px 0;
+	background: #000;
+}
+.arrow {
+	width: 40px;
+	height: 20px;
+	margin: 45px auto;
+}
+.arrow--down {
+	background: url(../images/arrow-down.png);
+}
+.arrow--down--light {
+	background: url(../images/arrow-down-light.png);
+}
+.button--main--page {
+	width: 230px;
+	border: 1px solid yellow;
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	background-color: transparent;
+	padding: 20px;
+	cursor: pointer;
+}
+

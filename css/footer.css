@@ -1,0 +1,30 @@
+/*footer*/
+.copyright {
+	font-size: 13px;
+	color: yellow;
+}
+.soc_icon {
+	display: inline-block;
+	margin-left: 30px;
+	width: 40px;
+	height: 40px;
+}
+.soc-icon:hover {
+	opacity: 0.8;
+	/*display: none;*/
+}
+.facebook {
+	background: url(../images/facebook.svg) no-repeat;
+}
+.twitter {
+	background: url(../images/twitter.svg) no-repeat;
+}
+.dribble {
+	background: url(../images/dribble.svg) no-repeat;
+}
+.google {
+	background: url(../images/google.svg) no-repeat;
+}
+.youtube {
+	background: url(../images/youtube.svg) no-repeat;
+}

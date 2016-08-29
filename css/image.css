@@ -1,0 +1,21 @@
+/*image*/
+.image__box {
+	margin: 1%;
+}
+.image__box img {
+	width: 100%;
+}
+.image__swatch {
+	background-color: #f3f3f3;
+	height: 200px;
+	/*margin: 0 30px 30px 0;*/
+	float: left;
+}
+.image__warning {
+	background-color: yellow;
+	display: table;
+}
+.image__warning-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}

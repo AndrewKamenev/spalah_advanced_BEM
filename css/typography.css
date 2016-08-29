@@ -1,0 +1,62 @@
+/*typography*/
+h1 {
+	font-size: 25px;
+	/*font-weight: bold;*/
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+.landing-title {
+	font-weight: 400;
+	font-size: 40px;
+	color: yellow;
+	/*margin-top: 50px;*/
+	margin-bottom: 110px;
+}
+h2 {
+	font-size: 15px;
+	color: yellow;
+	margin-bottom: 120px;
+	text-transform: uppercase;
+}
+.h2--margin50 {
+	margin: 50px 0 50px;
+}
+.text--no-margin {
+	margin: 0;
+}
+.text--inverse {
+	color: white;
+}
+.box__title {
+	font-size: 15px;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+.box__title:before {
+	counter-increment: count-title; /* Указываем идентификатор счетчика */
+    content: "0" counter(count-title); 
+	display: inline;
+	color: yellow;
+	font-size: 25px;
+	border-right: 1px solid yellow;
+	margin-right: 15px;
+	padding-right: 10px;
+}
+.box__text {
+	color: #8e8e8e;
+	font-size: 15px;
+	float: left;
+}
+/*.box span {
+	color: yellow;
+	font-size: 25px;
+	border-right: 1px solid yellow;
+	margin-right: 15px;
+	padding: 10px;
+}*/
+.image__warning__title {
+	font-size: 20px;
+}
+.image__warning__text {
+	color: white;
+}

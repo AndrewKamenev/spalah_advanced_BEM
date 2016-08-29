@@ -1,0 +1,44 @@
+.center {
+	margin: 0 auto;
+}
+.italic {
+	font-style: italic;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.content-justify {
+	display: -webkit-box; /* Android 4.3-, Safari без оптимизации */
+	-webkit-box-pack: justify; /* Android 4.3-, Safari без оптимизации */
+	display: -webkit-flex; /* оптимизация для Safari */
+	-webkit-justify-content: space-between; /* оптимизация для Safari */
+	display: flex;
+	justify-content: space-between;
+	text-align: justify;
+	display: block; /* IE10-, Firefox 12-22 */
+    text-align-last: justify; /* IE10-, Firefox 12-22 */
+}
+.clearfix {
+	clear: both;
+}
+.box {
+	padding: 0 30px;
+}
+.box-wrapper {
+	counter-reset: count-title;
+}
+.box__3column {
+	width: 30%;
+	display: inline-block;
+}
+.box__4column {
+	width: 23%;
+	display: inline-block;
+}
+.box__6column {
+	width: 14%;
+	display: inline-block;
+}

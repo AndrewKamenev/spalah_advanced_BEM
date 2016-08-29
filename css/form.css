@@ -1,0 +1,31 @@
+/*form*/
+form {
+	width: 976px;
+}
+.input__main {
+	background-color: yellow;
+	color: white;
+	padding: 20px;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: left;
+	border: none;
+}
+.input--middle {
+	width: 48%;
+}
+.form__button-main {
+	width: 100%;
+	background-color: black;
+	color: yellow;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 20px;
+	font-size: 20px;
+}
+.form__button-main:hover {
+	opacity: 0.8;
+}
+textarea {
+	height: 180px;
+}
