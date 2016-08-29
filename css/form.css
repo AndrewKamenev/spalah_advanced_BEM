@@ -11,6 +11,18 @@ form {
 	text-align: left;
 	border: none;
 }
+.input__main::-webkit-input-placeholder {
+	color: white;
+}
+.input__main::-moz-placeholder {
+	color: white;
+	}/* Firefox 19+ */
+.input__main:-moz-placeholder {
+	color: white;
+	}/* Firefox 18- */
+.input__main:-ms-input-placeholder {
+	color: white;
+}
 .input--middle {
 	width: 48%;
 }
